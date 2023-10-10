@@ -9,9 +9,9 @@ Infoblätter:
 
 Folgende Aufgaben sind enthalten
 
-* [Table of Contents *](src/tableOfContents/task.md)
-* [Number List Generator *](./src/numberListGenerator/task.md)
-* [Palindrom *-**](./src/palindrom/task.md)
-* [Drawing Figures **](./src/drawingFigures/task.md)
-* [Number Analyser**-***](./src/numberAnalyser/task.md)
+* [Table of Contents * + ](src/tableOfContents/task.md)
+* [Number List Generator * - ](./src/numberListGenerator/task.md)
+* [Palindrom *-** - ](./src/palindrom/task.md)
+* [Drawing Figures ** - ](./src/drawingFigures/task.md)
+* [Number Analyser**-*** - ](./src/numberAnalyser/task.md)
 
