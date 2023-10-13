@@ -10,6 +10,7 @@ public class TableOfContents {
         }
 
         StringBuilder dots = new StringBuilder(dotsCount);
+
         for (int i = 0; i < dotsCount; i++) {
             dots.append(".");
         }
