@@ -19,8 +19,19 @@ public class Generator {
 
     public String generateNumbers(int start, int end, int steps, char delimiter) {
 
+        if (start >= end) {
+            return "";
+        }
 
-        return "";
+        StringBuilder result = new StringBuilder();
+
+        for (int i = start; i <= end; i += steps) {
+
+            result.append(i).append(delimiter);
+        }
+        result.deleteCharAt(result.length() -1);
+
+        return result.toString();
     }
 
 }
