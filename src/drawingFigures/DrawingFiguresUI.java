@@ -12,5 +12,9 @@ public class DrawingFiguresUI {
         System.out.print("Geben Sie die Anzahl der Zeichen ein: ");
         int numbersOfSigns = scanner.nextInt();
         draver.drawSquare(sign, numbersOfSigns);
+
+        System.out.print("Geben Sie den Durchmesser der Raute ein: ");
+        int diameter = scanner.nextInt();
+        draver.drawRhombus(diameter);
     }
 }
